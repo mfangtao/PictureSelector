@@ -207,7 +207,7 @@ public final class CameraView extends ViewGroup {
             TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.CameraView222);
             setScaleType(
                     ScaleType.fromId(
-                            a.getInteger(R.styleable.CameraView222_scaleType,
+                            a.getInteger(R.styleable.CameraView222_scaleType222,
                                     getScaleType().getId())));
             setPinchToZoomEnabled(
                     a.getBoolean(
